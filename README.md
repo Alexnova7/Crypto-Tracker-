@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # Real-Time Global Crypto ETL Pipeline
 
 A professional Data Engineering project designed to extract, transform, and load live cryptocurrency market data into a local SQLite database using Python.
@@ -28,11 +27,3 @@ When running, the system generates the following real-time report:
 - **Language:** Python 3
 - **Libraries:** Pandas, Requests, SQLite3
 - **Environment:** Developed on mobile via GitHub Codespaces
-
-## How to Run
-To start the pipeline, execute the following command:
-`python3 cryptotracker.py`
-EOF
-git add README.md
-git commit -m "README updated with table preview"
-git push origin main>
